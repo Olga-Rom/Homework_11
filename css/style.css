@@ -98,25 +98,25 @@ textarea {
 	font-size: 16px;
 	line-height: 19px;
 }
-.header__auth-button {
+.header__auth {
 	display: inline-block;
 	width: 103px;
 	height: 43px;
 	align-items: center;
 	padding: 12px 24px;
 }
-.header__auth-button:hover {
+.header__auth:hover {
 	background-color: #FF5722;
 	box-shadow: 0px 4px 16px rgba(255, 87, 34, 0.32);
 }
-.header__auth-button:hover .header__auth-link {
+.header__auth:hover .header__link-auth {
 	color: #FFFFFF;
 }
-.header__auth-link {
+.header__link-auth {
 	color: #FF5722;
 }
 
-.header__register-button {
+.header__register {
 	display: inline-block;
 	/* background-color: #FF5722; */
 	width: 103px;
@@ -124,11 +124,11 @@ textarea {
 	align-items: center;
 	padding: 12px 24px;
 }
-.header__register-button:hover {
+.header__register:hover {
 	background-color: #FF5722;
 	box-shadow: 0px 4px 16px rgba(255, 87, 34, 0.32);
 }
-.header__register-button:hover .header__register-link {
+.header__register:hover .header__link-register {
 	color: #FFFFFF;
 }
 .header__register-link {
@@ -181,7 +181,7 @@ textarea {
 	
 
 }
-.block-header__header-text_white::after {
+.block-header__text_white::after {
 	content: "";
 	background: url('../img/Rectanglew.svg') ;
 	position: absolute;
@@ -208,7 +208,7 @@ textarea {
    
 	color: #10375C;
 }
-.block-body__body-title_size {
+.block-body__paragraph_size {
 	font-size: 40px;
    line-height: 51px;
 	color: #FFFFFF;
@@ -255,7 +255,7 @@ margin-left: 61px;
 	width: 433px;
 	color: #FFFFFF;
 }
-.block-header__header-text_white {
+.block-header__text_white {
 	color: #FFFFFF;
 
 }
