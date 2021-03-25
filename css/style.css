@@ -43,6 +43,7 @@ textarea {
 body {
 	padding-top: 61px;
 	line-height: 1;
+	width: 1900px;
 
 	
 }
@@ -69,8 +70,8 @@ textarea {
 	display: inline-block;
 	margin-right: 184px;
 }
-.header__logo-image {
-}
+
+
 .header__menu {
 	display: inline-block;
 	font-family: "Lato";
@@ -78,16 +79,13 @@ textarea {
 	font-size: 16px;
 	vertical-align: bottom;
 }
-.header__menu-list {
-	
-}
 
-.header__menu-list > li {
+.header__list > li {
 	display: inline-block;
 	margin-right: 40px;
 	line-height: 28px;
 	}
-.header__menu-list > li:last-child {
+.header__list > li:last-child {
 	margin-right: 81px;
 }
 .header__link {
@@ -138,6 +136,7 @@ textarea {
 }
 /* ============================================================= */
 .main {
+
 	padding-top: 56px;
 }
 .main__container {
@@ -155,14 +154,14 @@ textarea {
 	padding: 54px 54px 53px 53px;
 		
 }
-.block-header__header {
+.block-header__title {
 	display: inline-block;
 	position: relative;
 	padding-right: 8px;
 	margin-bottom: 8px;
 }
 
-.block-header__header-text {
+.block-header__text {
 	font-family: "Lato";
 	font-weight: 400;
 	font-size: 20px;
@@ -170,7 +169,7 @@ textarea {
 	color: #222831;
 
 }
-.block-header__header-text::after {
+.block-header__text::after {
 	content: "";
 	background: url('../img/Rectangle1.svg') ;
 	position: absolute;
@@ -195,12 +194,12 @@ textarea {
 .block-body {
 	display: inline-block;
 }
-.block-body__body {
+.block-body__container {
 	margin-bottom: 24px;
 	
 	
 }
-.block-body__body-title {
+.block-body__paragraph {
 	/* display: inline-block;  */
 	font-family: "Lora";
 	font-weight: bold;
@@ -223,10 +222,10 @@ textarea {
 }
 
 
-.block-body__span {
+.block-body__red {
 	color: #DD2C00;
 }
-.block-footer__footer {
+.block-footer__container {
 display: inline-block;
 vertical-align: top;
 padding-top: 8px;
